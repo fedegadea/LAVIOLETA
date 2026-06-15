@@ -1,13 +1,10 @@
 /* ─── Variables ─────────────────────────────────────────────── */
 :root {
-  --violeta:    #4B1F4F;
-  --berenjena:  #331133;
-  --vino:       #5E0F2D;
-  --marfil:     #F2EEE6;
-  --marfil-dk:  #E8E2D8;
-  --gris:       #8C8B87;
-  --oliva:      #243022;
-  --negro:      #111111;
+  --violeta:   #4B1F4F;
+  --marfil:    #F2EEE6;
+  --marfil-dk: #E8E2D8;
+  --negro:     #111111;
+  --oliva:     #243022;
 
   --ff-title: 'Cinzel', Georgia, serif;
   --ff-body:  'Montserrat', system-ui, sans-serif;
@@ -65,7 +62,7 @@ body {
   border: none;
 }
 .btn.primary { background: var(--violeta); color: var(--marfil); }
-.btn.primary:hover { background: var(--berenjena); }
+.btn.primary:hover { background: #3a1740; }
 .btn.ghost { background: transparent; color: var(--marfil); border: 1px solid rgba(242,238,230,.4); }
 .btn.ghost:hover { border-color: var(--marfil); background: rgba(242,238,230,.08); }
 .btn.outline { background: transparent; color: var(--violeta); border: 1px solid var(--violeta); }
@@ -356,7 +353,7 @@ nav a:hover { opacity: 1; }
 
 .sales-image {
   aspect-ratio: 4/3;
-  background: var(--gris);
+  background: var(--oliva);
   opacity: .2;
 }
 
@@ -428,7 +425,7 @@ nav a:hover { opacity: 1; }
 .contact-links a:hover { background: rgba(242,238,230,.1); border-color: rgba(242,238,230,.5); }
 
 /* ─── Footer ────────────────────────────────────────────────── */
-footer { background: var(--berenjena); padding: 40px var(--px); text-align: center; }
+footer { background: var(--oliva); padding: 40px var(--px); text-align: center; }
 
 .footer-brand {
   font-family: var(--ff-title);
