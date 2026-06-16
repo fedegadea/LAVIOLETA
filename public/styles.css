@@ -273,7 +273,7 @@ nav a:hover { opacity: 1; }
 }
 
 /* ─── Pilares ───────────────────────────────────────────────── */
-.pillars { background: var(--negro); padding: 100px var(--px); }
+.pillars { background: var(--oliva); padding: 100px var(--px); }
 
 .pillars-header { max-width: var(--max); margin: 0 auto 60px; }
 .pillars-header .section-kicker { color: rgba(242,238,230,.35); }
@@ -294,8 +294,8 @@ nav a:hover { opacity: 1; }
   background: rgba(242,238,230,.06);
 }
 
-.pillars-grid article { background: var(--negro); padding: 52px 44px; transition: background .3s; }
-.pillars-grid article:hover { background: #181818; }
+.pillars-grid article { background: var(--oliva); padding: 52px 44px; transition: background .3s; }
+.pillars-grid article:hover { background: #1e2b1c; }
 
 .pillar-num {
   font-family: var(--ff-title);
@@ -426,13 +426,13 @@ nav a:hover { opacity: 1; }
 .contact-links a:hover { background: rgba(242,238,230,.1); border-color: rgba(242,238,230,.5); }
 
 /* ─── Footer ────────────────────────────────────────────────── */
-footer { background: var(--oliva); padding: 40px var(--px); text-align: center; }
+footer { background: var(--marfil); padding: 40px var(--px); text-align: center; border-top: 1px solid rgba(75,31,79,.12); }
 
 .footer-brand {
   font-family: var(--ff-title);
   font-size: 13px;
   letter-spacing: .12em;
-  color: rgba(242,238,230,.65);
+  color: var(--violeta);
   margin-bottom: 6px;
 }
 
@@ -440,7 +440,7 @@ footer { background: var(--oliva); padding: 40px var(--px); text-align: center; 
   font-size: 10px;
   font-weight: 300;
   letter-spacing: .1em;
-  color: rgba(242,238,230,.28);
+  color: rgba(17,17,17,.35);
   text-transform: uppercase;
 }
 
